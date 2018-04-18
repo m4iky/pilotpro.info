@@ -1,0 +1,58 @@
+/**
+ * Default Look and Feel
+ */
+.alertify,
+.alertify-log {
+	font-family: sans-serif;
+}
+.alertify {
+	background: #FFF;
+	border: 10px solid #333; /* browsers that don't support rgba */
+	border: 10px solid rgba(0,0,0,.7);
+	border-radius: 8px;
+
+}
+.alertify-text {
+	border: 1px solid #CCC;
+	padding: 10px;
+	border-radius: 4px;
+}
+.alertify-button {
+	border-radius: 4px;
+	color: #FFF;
+	font-weight: bold;
+	padding: 6px 15px;
+	text-decoration: none;
+
+}
+
+.alertify-button:active {
+	position: relative;
+	top: 1px;
+}
+	.alertify-button-cancel {
+		background-color: rgb(163, 196, 251);
+		text-decoration:none!important;
+		color:white!important;
+	}
+	.alertify-button-ok {
+		background-color:rgb(129, 203, 94);
+		color:white!important;
+		text-decoration:none!important;
+
+	}
+.alertify-log {
+	background: #1F1F1F;
+	background:rgb(50, 50, 50);
+	padding: 15px;
+	border-radius: 4px;
+	color: #FFF;
+
+}
+	.alertify-log-error {
+		background: rgb(233, 76, 89);
+		background: rgb(224, 77, 77);
+	}
+	.alertify-log-success {
+		background: rgb(56, 200, 92);
+	}
